@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "producer": {
+    "repository": "AlainLam/nwaf",
+    "source_ref": "refs/heads/main",
+    "workflow": ".github/workflows/release-qualification.yml",
+    "event": "workflow_dispatch",
+    "artifact": "release-evidence"
+  },
+  "bridge": {
+    "repository": "AlainLam/nwaf",
+    "source_ref": "refs/heads/main",
+    "workflow": ".github/workflows/release.yml",
+    "operation": "submit-evidence",
+    "publisher_login": "AlainLam"
+  },
+  "profiles": {
+    "reference": {"distro": "debian13", "arch": "amd64", "vcpus": 2, "memory_bytes": 4294967296},
+    "minimum": {"distro": "debian12", "arch": "amd64", "vcpus": 1, "memory_bytes": 2147483648}
+  },
+  "gates": {
+    "combination": [
+      "install-select-activate", "request-path-with-and-without-waf", "repair",
+      "previous-working-rollback", "explicit-bundle-validation", "integrated-modules-and-lua-abi",
+      "bounded-audit-stock-off-and-overflow", "pre-waf-rejection-and-exemptions",
+      "ban-sequencing-and-retries", "control-handover-and-permissions",
+      "cold-ban-restoration-and-failures", "observation-and-escalation",
+      "geoip-and-crawler-failures", "ingestion-correlation-and-recovery",
+      "ingestion-overload-rotation-and-security-priority", "activation-backup-and-downgrade",
+      "external-edits-and-maintenance-recovery", "native-audit-reopen", "authentication-and-csrf",
+      "certificate-save-apply-and-recovery", "acme-routing-and-concurrency"
+    ],
+    "native": [
+      "empty-onboarding", "native-conflict-migration-and-recovery", "installer-and-uninstall",
+      "switch-downgrade-and-offline-rollback", "compatibility-and-corrupt-archive-rejection",
+      "interrupted-lifecycle-and-generation-fencing", "independent-supervision-and-cold-bans",
+      "repair-without-backup", "prepared-target-backup-restore-and-crash-recovery",
+      "bilingual-desktop-and-mobile-ui", "read-only-offline-validation"
+    ],
+    "docker": [
+      "empty-onboarding", "switch-downgrade-and-offline-rollback",
+      "compatibility-and-corrupt-archive-rejection", "interrupted-lifecycle-and-generation-fencing",
+      "four-volume-replacement-and-bundle-repair", "real-s6-stubborn-descendants-and-restart",
+      "independent-supervision-and-cold-bans", "repair-without-backup",
+      "prepared-target-backup-restore-and-crash-recovery", "bilingual-desktop-and-mobile-ui",
+      "read-only-offline-validation", "system-notices-and-source-companion"
+    ],
+    "reference": [
+      "calibrated-separate-generator", "four-mode-workload-matrix", "warmed-memory-plateau",
+      "inspected-body-concurrency", "full-waf-isolation", "ban-churn-and-cold-restoration",
+      "ingestion-and-disk-limits", "declared-release-limits-and-service-budgets"
+    ],
+    "minimum": [
+      "calibrated-separate-generator", "four-mode-workload-matrix", "warmed-memory-plateau",
+      "inspected-body-concurrency", "full-waf-isolation", "ban-churn-and-cold-restoration",
+      "ingestion-and-disk-limits", "declared-release-limits-and-service-budgets"
+    ],
+    "arm-smoke": ["platform-throughput-and-latency"],
+    "public": ["http01-ipv4-ipv6", "dns01-and-ari-renewal", "installer-and-uninstall"],
+    "global": [
+      "frozen-defaults-and-source", "dependency-licenses-and-notices", "frontend-csp-and-text-safety",
+      "bounded-space-saving-tracker", "active-note-gates", "documentation-consistency",
+      "browser-client-failure-diagnostics"
+    ]
+  },
+  "deferred": ["historical-protection-off-proxy-screening-target", "historical-warmed-memory-screening"]
+}

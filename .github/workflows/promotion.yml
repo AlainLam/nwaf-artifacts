@@ -1,0 +1,51 @@
+name: Promote qualified bundle catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      qualification_tag:
+        description: Immutable qualification receipt release tag
+        required: true
+        type: string
+      receipt_sha256:
+        description: Reviewed producer-receipt.json SHA-256
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stable-catalog-promotion
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-24.04
+    environment: release-stable
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      commit_sha: ${{ steps.promotion.outputs.commit_sha }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verify trusted receipt and promote the exact catalog
+        id: promotion
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          QUALIFICATION_TAG: ${{ inputs.qualification_tag }}
+          RECEIPT_SHA256: ${{ inputs.receipt_sha256 }}
+        run: python3 scripts/release/promote.py --qualification-tag "$QUALIFICATION_TAG" --receipt-sha256 "$RECEIPT_SHA256"
+
+  pages:
+    needs: promote
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.promote.outputs.commit_sha }}

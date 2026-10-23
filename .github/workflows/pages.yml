@@ -1,0 +1,56 @@
+name: Bundle catalogs
+
+on:
+  push:
+    branches: [main]
+    paths: ['candidate/manifest.json', 'stable/manifest.json', '.github/workflows/pages.yml']
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Exact committed catalog snapshot to deploy
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+          ref: ${{ inputs.ref || github.sha }}
+      - name: Refuse a superseded Pages snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')
+          test "$current" = "$(git rev-parse HEAD)"
+      - name: Assemble catalog site
+        run: |
+          mkdir -p site
+          for channel in candidate stable; do
+            if test -f "$channel/manifest.json"; then
+              mkdir -p "site/$channel"
+              cp "$channel/manifest.json" "site/$channel/manifest.json"
+            fi
+          done
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
