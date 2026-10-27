@@ -27,7 +27,7 @@ class GitHub:
         self.created_releases = set()
 
     def request(self, method, path, value=None, binary=None, missing=False):
-        url = 'https://api.github.com/repos/' + self.repository + '/' + path
+        url = 'https://api.github.com/repos/' + self.repository + ('/' + path if path else '')
         headers = {'Authorization': 'Bearer ' + self.token, 'Accept': 'application/vnd.github+json',
                    'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'NWAF release workflow'}
         data = None
