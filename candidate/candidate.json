@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-26T23:17:28.644713+00:00",
+  "inventory_sha256": "e80696f6a8ac24e5d351e920f6974931df85ba2268207e8a03e08107d5e79d69",
+  "manifest_sha256": "d99cd3f992dc079ddbc8df05a22b2652af538c21291f359131a03dab684bdccc",
+  "note_gates": [
+    {
+      "id": "note-ff06126ddf49aca2"
+    },
+    {
+      "id": "note-63226cf0c8811796"
+    },
+    {
+      "id": "note-c7f5ffb0c4eeedd4"
+    },
+    {
+      "id": "note-43578a6b1d9d3dd1"
+    },
+    {
+      "id": "note-5f1adb4231e95cd5"
+    },
+    {
+      "id": "note-b4cbefc23470078c"
+    },
+    {
+      "id": "note-ec7232f30157b160"
+    },
+    {
+      "id": "note-2bab94c875cbf5d8"
+    },
+    {
+      "id": "note-a3817bee3c551c36"
+    },
+    {
+      "id": "note-11c84c5cbb716aaa"
+    },
+    {
+      "id": "note-f64148de92e2786c"
+    },
+    {
+      "id": "note-acd243cb1100df91"
+    },
+    {
+      "id": "note-060a26cd03d4a2de"
+    },
+    {
+      "id": "note-4dfbd72918fe7db0"
+    },
+    {
+      "id": "note-2af6185ada5904b4"
+    },
+    {
+      "id": "note-66d5961f0d16b61b"
+    },
+    {
+      "id": "note-92bbf8eef1d43624"
+    },
+    {
+      "id": "note-ff4108264c189cca"
+    },
+    {
+      "id": "note-2b0180953c549a4d"
+    },
+    {
+      "id": "note-9ccaa67e45c339b0"
+    },
+    {
+      "id": "note-2f128978d8189912"
+    },
+    {
+      "id": "note-af59ea12f42b1416"
+    },
+    {
+      "id": "note-ac69b1ee0356d7f9"
+    },
+    {
+      "id": "note-aae898805a2dcf6e"
+    },
+    {
+      "id": "note-6d7f7a23e97b0104"
+    },
+    {
+      "id": "note-fd51473a638ae48e"
+    },
+    {
+      "id": "note-879affe3af9b2276"
+    },
+    {
+      "id": "note-e973eb0541b4fbd2"
+    },
+    {
+      "id": "note-391191c2babe99b7"
+    },
+    {
+      "id": "note-a85523b7a765ccb9"
+    },
+    {
+      "id": "note-c641debc9d4e59be"
+    },
+    {
+      "id": "note-67bc6ee39b48e834"
+    },
+    {
+      "id": "note-5e75d151f803f35b"
+    },
+    {
+      "id": "note-7f6cbf37f7cdb569"
+    },
+    {
+      "id": "note-fce6f515436f53f0"
+    },
+    {
+      "id": "note-fd576f16eb3b50c3"
+    },
+    {
+      "id": "note-e43f136b038cc352"
+    },
+    {
+      "id": "note-6cb270b3e7781920"
+    }
+  ],
+  "panel_version": "0.1.0",
+  "policy_sha256": "d28fbea225949b3b4f4abd7e9a630d2ec19ef21dc282fe068fd2cb40c0aa9a35",
+  "repository": "AlainLam/nwaf",
+  "run_attempt": "1",
+  "run_id": "40370847774",
+  "schema_version": 1,
+  "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+  "source_ref": "refs/heads/main"
+}

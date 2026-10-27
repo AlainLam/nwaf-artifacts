@@ -1,0 +1,3587 @@
+{
+  "artifacts": [
+    {
+      "arch": "amd64",
+      "binary_sha256": "6bf36da6f691900b095fa0b464f8d39a9036a786427ab83f684aaa96cd01ceef",
+      "build_sha256": "2abe030ff34734a78f035bc489d7c7a4aa892fbcabdbcb15c70b3afa68f23427",
+      "distro": "debian12",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_debian12_amd64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "d8ed0ff9c1f0d902b7d6d588c020d21452a057e5f3cc938c2cab7673ecc1a9e5",
+      "sha256": "aaad50bcba4c5d3c86aa058450532bb81262830e6cc5f544a2012be0d72294f6"
+    },
+    {
+      "arch": "arm64",
+      "binary_sha256": "e8a0b78432b7c4c5524da7f425490d39587d9b2b7d0cf527663f97cf7042fd9e",
+      "build_sha256": "d7d7b685427dc33b0f1b11765e234bd266c8c0e7b672abf2cde3677b8e23396a",
+      "distro": "debian12",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_debian12_arm64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "89fffe29243c0ad504285576e6cfccbe769cb5210fc5f12612e625783b9a7077",
+      "sha256": "2523817c9d302c15c8a5da7056e0ef548e36214d910bb5858fac122e2382c669"
+    },
+    {
+      "arch": "amd64",
+      "binary_sha256": "6bf36da6f691900b095fa0b464f8d39a9036a786427ab83f684aaa96cd01ceef",
+      "build_sha256": "2abe030ff34734a78f035bc489d7c7a4aa892fbcabdbcb15c70b3afa68f23427",
+      "distro": "debian13",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_debian13_amd64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "72b7cef633305b31c38e4177b228c7a23cc4ec2c324f962bb8c058ec140b7880",
+      "sha256": "379a82eb9b6d5e2150e423cf8479739353c0034ce220a2845c764d6ac06349e9"
+    },
+    {
+      "arch": "arm64",
+      "binary_sha256": "e8a0b78432b7c4c5524da7f425490d39587d9b2b7d0cf527663f97cf7042fd9e",
+      "build_sha256": "d7d7b685427dc33b0f1b11765e234bd266c8c0e7b672abf2cde3677b8e23396a",
+      "distro": "debian13",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_debian13_arm64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "c40215215dab3594df1036ebece2e318943f457a9d479b4c1ef276690f68e964",
+      "sha256": "d8659ae60298429566bd436d38ec1b218693f1e1aa9fa5a0b1bcec35a877459d"
+    },
+    {
+      "arch": "amd64",
+      "binary_sha256": "6bf36da6f691900b095fa0b464f8d39a9036a786427ab83f684aaa96cd01ceef",
+      "build_sha256": "2abe030ff34734a78f035bc489d7c7a4aa892fbcabdbcb15c70b3afa68f23427",
+      "distro": "ubuntu24.04",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_ubuntu24.04_amd64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "065d43747c40b774d5c31fb861a1e0b2ee1fb9581e44e0f1a3034f7ede20893a",
+      "sha256": "aebb8b02980dcd109e17dcc29359a1ec224e8a099a620dd7240e186c4095bf9e"
+    },
+    {
+      "arch": "arm64",
+      "binary_sha256": "e8a0b78432b7c4c5524da7f425490d39587d9b2b7d0cf527663f97cf7042fd9e",
+      "build_sha256": "d7d7b685427dc33b0f1b11765e234bd266c8c0e7b672abf2cde3677b8e23396a",
+      "distro": "ubuntu24.04",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_ubuntu24.04_arm64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "0df53d6ead86cea7c6abe57288d32d0edbcdf7a6c7f8ff7daad6e4d09c18586c",
+      "sha256": "88eca6989628c3a2738d42372e4a5beb5248df630cc624a1cd6ca265e8fc9fb8"
+    },
+    {
+      "arch": "amd64",
+      "binary_sha256": "6bf36da6f691900b095fa0b464f8d39a9036a786427ab83f684aaa96cd01ceef",
+      "build_sha256": "2abe030ff34734a78f035bc489d7c7a4aa892fbcabdbcb15c70b3afa68f23427",
+      "distro": "ubuntu26.04",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_ubuntu26.04_amd64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "b6854f6d1cfc36fcecf0a8b42e6ff42bd22184417a38b8ed9d86c6b00f8e5238",
+      "sha256": "b187c309ca779645f0874a6080b73e26a9e58a7a867f331be60b458f397ca365"
+    },
+    {
+      "arch": "arm64",
+      "binary_sha256": "e8a0b78432b7c4c5524da7f425490d39587d9b2b7d0cf527663f97cf7042fd9e",
+      "build_sha256": "d7d7b685427dc33b0f1b11765e234bd266c8c0e7b672abf2cde3677b8e23396a",
+      "distro": "ubuntu26.04",
+      "file": "dist/host/nwaf_0.1.0-qa.394eb49.1793054729_ubuntu26.04_arm64.deb",
+      "kind": "package",
+      "package_version": "0.1.0~qa.394eb49.1793054729",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "131b172fa0577b3c010a8559c548a9c2d0c48fd6cdc064bd843abc1b89b636a8",
+      "sha256": "1b5520841e5523d48d16b72d84eef216843bc119578c310fcc119437b8924431"
+    },
+    {
+      "arch": "amd64",
+      "binary_sha256": "f10abd5045af1ab37fad640e61bf130bdfb6b8b9fb1ca20eb066e18a82c344d9",
+      "build_sha256": "51b295458fa0786a2f056f31f0e14724b7f2b5cacfec32d556acd6abe11bd5a5",
+      "distro": "debian13",
+      "file": "dist/docker/amd64/nwaf-image.tar",
+      "image_identity": {
+        "arch": "amd64",
+        "chain": [
+          {
+            "digest": "sha256:1b798c93d4df5b613a429c6b69dd62e37ada6676a887244e684f9e8bc2234145",
+            "media_type": "application/vnd.oci.image.manifest.v1+json",
+            "size": 2386
+          }
+        ],
+        "config_digest": "sha256:d48feeffc4ea3d2ff9f8f3d27d9a5f166b3313b64aea5993cdfca28f17ca1c5a",
+        "os": "linux",
+        "platform_manifest_digest": "sha256:1b798c93d4df5b613a429c6b69dd62e37ada6676a887244e684f9e8bc2234145",
+        "rootfs_diff_ids": [
+          "sha256:15f1c8eb1ab18eae260c7fb6296434cbe1ff0e1e30fd814ae92a80dd54005e62",
+          "sha256:7430a5641497bf5f7ff03ffde38e973b9432e6b3f15d213cf66f0ac86460c4ab",
+          "sha256:7eb199bf82d29f34551e262c693a20d67d263de1eb9de70f6af23bc6ac5ad1f5",
+          "sha256:ef679f23a0c192d4783e2a73d1f7ec2e99e30ab52a8ab8761f10cc3f7c22fef6",
+          "sha256:57f0d35cce2a9ece410781ea3ffb0b5477309a5737b9a808378a41751664455a",
+          "sha256:2b42c1813a55df1e8f93d8626751baecf8edc44b3b42f91bd4eae0c84ef6c824",
+          "sha256:87083e48f6218283b7b0d38db64e5f823813707a7ab1c7cd6c6f6e84bce48be3",
+          "sha256:3438f8053e2fe3d41259148609430c847bc15784cfb595c295545325136a9d40",
+          "sha256:64458d88194aa5c386df96289613548121ce99866a5c7545d70e66785bfe5429",
+          "sha256:263aafe9da7c2078232cc11bef2e921ce8e790e4494b050e3dc6117c3ee2d96e",
+          "sha256:7b5a19b78c221c0d3d0a8333acd03f2a78161ef61a56e70c9194c1b970e7cbf2"
+        ]
+      },
+      "kind": "image",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "b9506faebd45325f1b2fbeee67f9826c801b7c0836c4bf6e93daa546ede966ac",
+      "sha256": "8c5e3d26c20989bc305f5acbdf6e4641fefc36390a61ad4da37cf2bd85e41884",
+      "source_companion_sha256": "ba202bdc3a4d6019c15a77e4451df5a20f2a6d1f2a42412cbf107c29b4d7de41"
+    },
+    {
+      "arch": "arm64",
+      "binary_sha256": "32e31961da1a8553f151c598b284fa41effe52db7fc8f043f4c7f0305b15d895",
+      "build_sha256": "228aa31e1e284c2c8f90acf3f0d853b88b9b28e9b00561dd0b9f4eeab26eabc0",
+      "distro": "debian13",
+      "file": "dist/docker/arm64/nwaf-image.tar",
+      "image_identity": {
+        "arch": "arm64",
+        "chain": [
+          {
+            "digest": "sha256:cb5efc008cf7a33ae099b42db690d7190b48d4aa5080e8474b710b4d475c904b",
+            "media_type": "application/vnd.oci.image.manifest.v1+json",
+            "size": 1924
+          }
+        ],
+        "config_digest": "sha256:a2664c70e696bc568e475b75d1d5d3a67cbedf01d030047fdee97d0fe9a1da6c",
+        "os": "linux",
+        "platform_manifest_digest": "sha256:cb5efc008cf7a33ae099b42db690d7190b48d4aa5080e8474b710b4d475c904b",
+        "rootfs_diff_ids": [
+          "sha256:258ba1f62b513e7bb7492d3cc8ce445e4ef176a14980f193f789b6d7270ae61c",
+          "sha256:3c7fc2b3fd3e3de7fb15c008a936f566ba1dad8c8d079335acdb68d0afb2d120",
+          "sha256:c5e52de4fdb45d332e930e0819f07b9b0ec8a7e014aafe3f4eac66d8417cb683",
+          "sha256:7c7d9ac1adcfe608ca15f34614ffbfe0e1130f5cb0d46a5da45052c386dbb802",
+          "sha256:8428d92b8704a5b24e44c1c568a96e41fa9e942dc7e5213732f11b59b4c376ec",
+          "sha256:d2a5acd705d4cbb66ba9c918eaa7bdb8a2a77110027fc55d45eeca882dcfb992",
+          "sha256:68a66046fa38f96b90a3c76473ad00fa04f61bfc72d542c823c063a74e780503",
+          "sha256:604d875f841e089efc29cb0edcc4ff275acae143638bb76c8148c1436d9f3237",
+          "sha256:48d474a02c1972e12db4d10c583e5faf84331b175c4f7fa29869b1fc924ee1a3",
+          "sha256:1e70f0ff38f62179f4268c9ed2ed2e1591ffcbb2b932ac9c6ecec8e27b38802e",
+          "sha256:ed5cb3db9d0b08e9981dc51fcb45d007abe711d2baaf3705f7e199bf328080cb"
+        ]
+      },
+      "kind": "image",
+      "panel_version": "0.1.0",
+      "runtime_sha256": "f7e5cb04f9ff24590b277fb4df49a95e82c2b230d86db6d6d18186f8190a34d7",
+      "sha256": "e1fef055c073ca130245c41bf7cfad0de986623bb6d8905943c995dc611e854c",
+      "source_companion_sha256": "e7ef8d8954291ee8547928d59a78692bba8d6b08fbc32c8af4c31e47a873f454"
+    }
+  ],
+  "bundles": [
+    {
+      "arch": "amd64",
+      "bytes": 2676525,
+      "descriptor_sha256": "0072933da715d7c2cbab2a7d3aa6f0e1d48267439c94b5f8396abacd8aa1d2e1",
+      "distro": "debian12",
+      "file": "dist/release-bundles/1.30.5-6/debian12-amd64/nwaf-nginx-1.30.5-6-debian12-amd64.tar.gz",
+      "sha256": "bbbb3438fc56ee4b609a7c885dcea9546bcc357e3d773ecdd0fcb6f021d5792b",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "0d2550b23bfcb3e04a05256e60dd1413d8a5f348e11f1e11ecd368f8b48f2903",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2606232,
+      "descriptor_sha256": "61c7c05073476a4a750297b738441ee5aa180c8fe826a7e1a5cea057ff880471",
+      "distro": "debian12",
+      "file": "dist/release-bundles/1.30.5-6/debian12-arm64/nwaf-nginx-1.30.5-6-debian12-arm64.tar.gz",
+      "sha256": "45053e9b9351e0b1832f74907ae594b71aa6728e773cb749d0e0c243f7f34f09",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "83edb8dc47487df1077bf986eacbefa27a136c0f89b7f0e3a64fbb1e33606e3a",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2778907,
+      "descriptor_sha256": "2cb1b310c9c3320e829fb5e1a3f687e43ebd2f29c6e2bf42f18b16e2fead5ea7",
+      "distro": "debian13",
+      "file": "dist/release-bundles/1.30.5-6/debian13-amd64/nwaf-nginx-1.30.5-6-debian13-amd64.tar.gz",
+      "sha256": "837f6dcd94b081064ad1a910301e4ba58747c3d6789c70beae7e94f6fbc99c81",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "9626708bfa8731798da4f1898f53343c4ae0c460717fa472e6a200ffbc47c354",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2681210,
+      "descriptor_sha256": "b8d9927ecec6887e23410b5aa2335b46c72d31ad3dcb04e9ff5aa998a9406cbb",
+      "distro": "debian13",
+      "file": "dist/release-bundles/1.30.5-6/debian13-arm64/nwaf-nginx-1.30.5-6-debian13-arm64.tar.gz",
+      "sha256": "03d64f3f4097403f703846ac2f4c6408320858a95d46c0fcdfd06b469c83ec0b",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "373ff48232d333f0a5b1f6d5798b54bd139689e2c80d5a246f02292686af5155",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2727138,
+      "descriptor_sha256": "7b7051b49304a28cd4079e2fd12e393bfbb2f4fba409f208052661277a5d4086",
+      "distro": "ubuntu24.04",
+      "file": "dist/release-bundles/1.30.5-6/ubuntu24.04-amd64/nwaf-nginx-1.30.5-6-ubuntu24.04-amd64.tar.gz",
+      "sha256": "dc1709eb3b1b827025091d6d4afba2598754137748d83067ff16cbebc74534a2",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "e6e4b7cb728664f8a912ecdd3db7f4d41f960b20bbdf604ef8ee452986ebfaca",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2648482,
+      "descriptor_sha256": "f3f1761da17b26d5b40534a0935a5dd9095b7bba750daf987d553b6d5c18eae8",
+      "distro": "ubuntu24.04",
+      "file": "dist/release-bundles/1.30.5-6/ubuntu24.04-arm64/nwaf-nginx-1.30.5-6-ubuntu24.04-arm64.tar.gz",
+      "sha256": "26be9cabca580440ef6b74c9d72c97d4b2927a4f218ff12f76c8d6ca2109502b",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "a05eb8eb21f5cf4c8f52d47b26954d580d0717e82b2d360590b0321d70396af4",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2775879,
+      "descriptor_sha256": "9e925f352c825d1e6b8ba5bad71e452651014bde9fdcf70652e2dcabbd251b4b",
+      "distro": "ubuntu26.04",
+      "file": "dist/release-bundles/1.30.5-6/ubuntu26.04-amd64/nwaf-nginx-1.30.5-6-ubuntu26.04-amd64.tar.gz",
+      "sha256": "34e3283b7a3614249b4be1d7c6b7737bd1aad2d9961889ea39d86074973cf338",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "9973a3ff1e13bb3a1f4327c42974a368e8d06d740f81f3335a273295f1e720a2",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2666806,
+      "descriptor_sha256": "88d5e952206da663bd4e7c007c723ccd29fdb3c82cacff360b163669226fa718",
+      "distro": "ubuntu26.04",
+      "file": "dist/release-bundles/1.30.5-6/ubuntu26.04-arm64/nwaf-nginx-1.30.5-6-ubuntu26.04-arm64.tar.gz",
+      "sha256": "372bb4503a281f9ae655f0f06c8a47cc7d53d864fd96a2711f6a499a9c7cf587",
+      "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f",
+      "validation_sha256": "c5e4bdd2416f4da91c80e162f3256f0a7d1e24a97b739f3abb58e2926c0945eb",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2676516,
+      "descriptor_sha256": "0d19a85f979d9303847d0aa9ae2291de514dc630eaf25cd06125a7851a1d8aab",
+      "distro": "debian12",
+      "file": "dist/release-bundles/1.30.5-5/debian12-amd64/nwaf-nginx-1.30.5-5-debian12-amd64.tar.gz",
+      "sha256": "6d2ce4a20e68484bab7ecca60718b09009adeced1acbec6c02733fd2da8ac2c7",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "cf9637027a38f7aadc3fff0345cf9d7b9233a2a63ca1c7260cd6e4286dde4ca2",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2606263,
+      "descriptor_sha256": "c25f923e89e492d91f5d98fb46a271fa959f8bc67c152677722ff2bf06cffdd9",
+      "distro": "debian12",
+      "file": "dist/release-bundles/1.30.5-5/debian12-arm64/nwaf-nginx-1.30.5-5-debian12-arm64.tar.gz",
+      "sha256": "e51c26fb0f7285be5728acae24a3279cdc5bb39d364cd0cface8e67770e212e7",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "517009ebeea3aedb682967722625d21332a139dc30a5adcab80b12c2d6e5103e",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2778912,
+      "descriptor_sha256": "25b294808b4415a86dd7be26c87a6738426cb946c669279880af4f986f368202",
+      "distro": "debian13",
+      "file": "dist/release-bundles/1.30.5-5/debian13-amd64/nwaf-nginx-1.30.5-5-debian13-amd64.tar.gz",
+      "sha256": "ad859c830e807664680b77c1b4d546e8a782c577976e101f375ae4576cb84fa2",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "52e7b6716bbaa0057c744bca23995c9d7d97f1943de6bd09cb600f314e6ae4ea",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2680858,
+      "descriptor_sha256": "0cdaf560954b834ea33fb4b89a2889c187bd26a82a370c9905d989601dcd591f",
+      "distro": "debian13",
+      "file": "dist/release-bundles/1.30.5-5/debian13-arm64/nwaf-nginx-1.30.5-5-debian13-arm64.tar.gz",
+      "sha256": "91596667411fcf25c774c4c7e827753cf1453f316f8a42fb990b1a6853fc071d",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "645dcf81498332684e6b7a8dea33ef10221b851928743dbba4b40e43ffae6b35",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2727141,
+      "descriptor_sha256": "444359f740a22f959f067114df89c73a405275705f08024e18649b476cc9b00a",
+      "distro": "ubuntu24.04",
+      "file": "dist/release-bundles/1.30.5-5/ubuntu24.04-amd64/nwaf-nginx-1.30.5-5-ubuntu24.04-amd64.tar.gz",
+      "sha256": "9edd13f1d7d42cf75815f029eb5f3b56e8e8db942d8665fa7cb2e9b4c83951c6",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "e8639488a4fef3432944fcdbb9053576569d5ae6f1b6c0106624342d44107917",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2648489,
+      "descriptor_sha256": "671f46a3687d360c8c78dc09669690af3e55ba3471968ab06f27e1ba5b52110e",
+      "distro": "ubuntu24.04",
+      "file": "dist/release-bundles/1.30.5-5/ubuntu24.04-arm64/nwaf-nginx-1.30.5-5-ubuntu24.04-arm64.tar.gz",
+      "sha256": "42a005989a2504ff10f2e92ba67266fd512da051829e6f0532e206ed74e5fe29",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "a9e8333534477fd61e1afc0262bdd8c9894f80c6f122cafcd553d51199d9836c",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "bytes": 2775890,
+      "descriptor_sha256": "08bdbf57439a6734d65e8ff4d0ae1a79c1c85c1d1b28c1694d6d499fd16ab8ca",
+      "distro": "ubuntu26.04",
+      "file": "dist/release-bundles/1.30.5-5/ubuntu26.04-amd64/nwaf-nginx-1.30.5-5-ubuntu26.04-amd64.tar.gz",
+      "sha256": "f8672933ae33f888751fa9bfc992aba09458c597a4e8feb95f8b03a9e0583e86",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "9676b6dad38a60f26ecc3a180c985e9237697d154b1a181e05c45cf8b4e44295",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "bytes": 2666805,
+      "descriptor_sha256": "4efe83142ce9e699edd5c7a447d82c93f62af6785fd75ea59c9a44ac20451b07",
+      "distro": "ubuntu26.04",
+      "file": "dist/release-bundles/1.30.5-5/ubuntu26.04-arm64/nwaf-nginx-1.30.5-5-ubuntu26.04-arm64.tar.gz",
+      "sha256": "b63991228209eb527e55ac6c597566c611d34bed6a90dafdd9f4b885ad779d58",
+      "source_commit": "49bab573796519560f35e2e20c03ee38f797f667",
+      "validation_sha256": "baaa3489548c5a622eaa6b2439fdd0b3e39aa65e38b1229b064a40c3b5f26df0",
+      "validator": {
+        "canonical_defaults": true,
+        "python_sha256": "171d9d02e09d23e06b1d87abeab6e9590fd9a371bc63795323bf2a9feef04a20",
+        "shell_sha256": "b9800da071882a1b0606daf0ddcc2a1a3a696a17ae92c55dcd4a0ecbcb1c4c94"
+      },
+      "version": "1.30.5-5"
+    }
+  ],
+  "combinations": [
+    {
+      "arch": "amd64",
+      "bundle_sha256": "bbbb3438fc56ee4b609a7c885dcea9546bcc357e3d773ecdd0fcb6f021d5792b",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "0072933da715d7c2cbab2a7d3aa6f0e1d48267439c94b5f8396abacd8aa1d2e1",
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "aaad50bcba4c5d3c86aa058450532bb81262830e6cc5f544a2012be0d72294f6",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "runtime_sha256": "d8ed0ff9c1f0d902b7d6d588c020d21452a057e5f3cc938c2cab7673ecc1a9e5"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "6d2ce4a20e68484bab7ecca60718b09009adeced1acbec6c02733fd2da8ac2c7",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "0d19a85f979d9303847d0aa9ae2291de514dc630eaf25cd06125a7851a1d8aab",
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "aaad50bcba4c5d3c86aa058450532bb81262830e6cc5f544a2012be0d72294f6",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "runtime_sha256": "d8ed0ff9c1f0d902b7d6d588c020d21452a057e5f3cc938c2cab7673ecc1a9e5"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "45053e9b9351e0b1832f74907ae594b71aa6728e773cb749d0e0c243f7f34f09",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "61c7c05073476a4a750297b738441ee5aa180c8fe826a7e1a5cea057ff880471",
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "2523817c9d302c15c8a5da7056e0ef548e36214d910bb5858fac122e2382c669",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "runtime_sha256": "89fffe29243c0ad504285576e6cfccbe769cb5210fc5f12612e625783b9a7077"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "e51c26fb0f7285be5728acae24a3279cdc5bb39d364cd0cface8e67770e212e7",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "c25f923e89e492d91f5d98fb46a271fa959f8bc67c152677722ff2bf06cffdd9",
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "2523817c9d302c15c8a5da7056e0ef548e36214d910bb5858fac122e2382c669",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "runtime_sha256": "89fffe29243c0ad504285576e6cfccbe769cb5210fc5f12612e625783b9a7077"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "837f6dcd94b081064ad1a910301e4ba58747c3d6789c70beae7e94f6fbc99c81",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "2cb1b310c9c3320e829fb5e1a3f687e43ebd2f29c6e2bf42f18b16e2fead5ea7",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "379a82eb9b6d5e2150e423cf8479739353c0034ce220a2845c764d6ac06349e9",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "72b7cef633305b31c38e4177b228c7a23cc4ec2c324f962bb8c058ec140b7880"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "ad859c830e807664680b77c1b4d546e8a782c577976e101f375ae4576cb84fa2",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "25b294808b4415a86dd7be26c87a6738426cb946c669279880af4f986f368202",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "379a82eb9b6d5e2150e423cf8479739353c0034ce220a2845c764d6ac06349e9",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "72b7cef633305b31c38e4177b228c7a23cc4ec2c324f962bb8c058ec140b7880"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "03d64f3f4097403f703846ac2f4c6408320858a95d46c0fcdfd06b469c83ec0b",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "b8d9927ecec6887e23410b5aa2335b46c72d31ad3dcb04e9ff5aa998a9406cbb",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "d8659ae60298429566bd436d38ec1b218693f1e1aa9fa5a0b1bcec35a877459d",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "c40215215dab3594df1036ebece2e318943f457a9d479b4c1ef276690f68e964"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "91596667411fcf25c774c4c7e827753cf1453f316f8a42fb990b1a6853fc071d",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "0cdaf560954b834ea33fb4b89a2889c187bd26a82a370c9905d989601dcd591f",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "d8659ae60298429566bd436d38ec1b218693f1e1aa9fa5a0b1bcec35a877459d",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "c40215215dab3594df1036ebece2e318943f457a9d479b4c1ef276690f68e964"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "dc1709eb3b1b827025091d6d4afba2598754137748d83067ff16cbebc74534a2",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "7b7051b49304a28cd4079e2fd12e393bfbb2f4fba409f208052661277a5d4086",
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "aebb8b02980dcd109e17dcc29359a1ec224e8a099a620dd7240e186c4095bf9e",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "runtime_sha256": "065d43747c40b774d5c31fb861a1e0b2ee1fb9581e44e0f1a3034f7ede20893a"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "9edd13f1d7d42cf75815f029eb5f3b56e8e8db942d8665fa7cb2e9b4c83951c6",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "444359f740a22f959f067114df89c73a405275705f08024e18649b476cc9b00a",
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "aebb8b02980dcd109e17dcc29359a1ec224e8a099a620dd7240e186c4095bf9e",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "runtime_sha256": "065d43747c40b774d5c31fb861a1e0b2ee1fb9581e44e0f1a3034f7ede20893a"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "26be9cabca580440ef6b74c9d72c97d4b2927a4f218ff12f76c8d6ca2109502b",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "f3f1761da17b26d5b40534a0935a5dd9095b7bba750daf987d553b6d5c18eae8",
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "88eca6989628c3a2738d42372e4a5beb5248df630cc624a1cd6ca265e8fc9fb8",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "runtime_sha256": "0df53d6ead86cea7c6abe57288d32d0edbcdf7a6c7f8ff7daad6e4d09c18586c"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "42a005989a2504ff10f2e92ba67266fd512da051829e6f0532e206ed74e5fe29",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "671f46a3687d360c8c78dc09669690af3e55ba3471968ab06f27e1ba5b52110e",
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "88eca6989628c3a2738d42372e4a5beb5248df630cc624a1cd6ca265e8fc9fb8",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "runtime_sha256": "0df53d6ead86cea7c6abe57288d32d0edbcdf7a6c7f8ff7daad6e4d09c18586c"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "34e3283b7a3614249b4be1d7c6b7737bd1aad2d9961889ea39d86074973cf338",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "9e925f352c825d1e6b8ba5bad71e452651014bde9fdcf70652e2dcabbd251b4b",
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "b187c309ca779645f0874a6080b73e26a9e58a7a867f331be60b458f397ca365",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "runtime_sha256": "b6854f6d1cfc36fcecf0a8b42e6ff42bd22184417a38b8ed9d86c6b00f8e5238"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "f8672933ae33f888751fa9bfc992aba09458c597a4e8feb95f8b03a9e0583e86",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "08bdbf57439a6734d65e8ff4d0ae1a79c1c85c1d1b28c1694d6d499fd16ab8ca",
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "b187c309ca779645f0874a6080b73e26a9e58a7a867f331be60b458f397ca365",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "runtime_sha256": "b6854f6d1cfc36fcecf0a8b42e6ff42bd22184417a38b8ed9d86c6b00f8e5238"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "372bb4503a281f9ae655f0f06c8a47cc7d53d864fd96a2711f6a499a9c7cf587",
+      "bundle_version": "1.30.5-6",
+      "deployment": "host",
+      "descriptor_sha256": "88d5e952206da663bd4e7c007c723ccd29fdb3c82cacff360b163669226fa718",
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "1b5520841e5523d48d16b72d84eef216843bc119578c310fcc119437b8924431",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "runtime_sha256": "131b172fa0577b3c010a8559c548a9c2d0c48fd6cdc064bd843abc1b89b636a8"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "b63991228209eb527e55ac6c597566c611d34bed6a90dafdd9f4b885ad779d58",
+      "bundle_version": "1.30.5-5",
+      "deployment": "host",
+      "descriptor_sha256": "4efe83142ce9e699edd5c7a447d82c93f62af6785fd75ea59c9a44ac20451b07",
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "1b5520841e5523d48d16b72d84eef216843bc119578c310fcc119437b8924431",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "runtime_sha256": "131b172fa0577b3c010a8559c548a9c2d0c48fd6cdc064bd843abc1b89b636a8"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "837f6dcd94b081064ad1a910301e4ba58747c3d6789c70beae7e94f6fbc99c81",
+      "bundle_version": "1.30.5-6",
+      "deployment": "docker",
+      "descriptor_sha256": "2cb1b310c9c3320e829fb5e1a3f687e43ebd2f29c6e2bf42f18b16e2fead5ea7",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "8c5e3d26c20989bc305f5acbdf6e4641fefc36390a61ad4da37cf2bd85e41884",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "b9506faebd45325f1b2fbeee67f9826c801b7c0836c4bf6e93daa546ede966ac"
+    },
+    {
+      "arch": "amd64",
+      "bundle_sha256": "ad859c830e807664680b77c1b4d546e8a782c577976e101f375ae4576cb84fa2",
+      "bundle_version": "1.30.5-5",
+      "deployment": "docker",
+      "descriptor_sha256": "25b294808b4415a86dd7be26c87a6738426cb946c669279880af4f986f368202",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "8c5e3d26c20989bc305f5acbdf6e4641fefc36390a61ad4da37cf2bd85e41884",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "b9506faebd45325f1b2fbeee67f9826c801b7c0836c4bf6e93daa546ede966ac"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "03d64f3f4097403f703846ac2f4c6408320858a95d46c0fcdfd06b469c83ec0b",
+      "bundle_version": "1.30.5-6",
+      "deployment": "docker",
+      "descriptor_sha256": "b8d9927ecec6887e23410b5aa2335b46c72d31ad3dcb04e9ff5aa998a9406cbb",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "e1fef055c073ca130245c41bf7cfad0de986623bb6d8905943c995dc611e854c",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "f7e5cb04f9ff24590b277fb4df49a95e82c2b230d86db6d6d18186f8190a34d7"
+    },
+    {
+      "arch": "arm64",
+      "bundle_sha256": "91596667411fcf25c774c4c7e827753cf1453f316f8a42fb990b1a6853fc071d",
+      "bundle_version": "1.30.5-5",
+      "deployment": "docker",
+      "descriptor_sha256": "0cdaf560954b834ea33fb4b89a2889c187bd26a82a370c9905d989601dcd591f",
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "panel_sha256": "e1fef055c073ca130245c41bf7cfad0de986623bb6d8905943c995dc611e854c",
+      "panel_version": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "runtime_sha256": "f7e5cb04f9ff24590b277fb4df49a95e82c2b230d86db6d6d18186f8190a34d7"
+    }
+  ],
+  "panel_version": "0.1.0",
+  "schema_version": 1,
+  "source_commit": "394eb49b8b74dd48835558e1465ffdd9b528610f"
+}

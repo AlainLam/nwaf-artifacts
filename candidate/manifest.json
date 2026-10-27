@@ -1,0 +1,2663 @@
+{
+  "bundles": [
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "sha256": "bbbb3438fc56ee4b609a7c885dcea9546bcc357e3d773ecdd0fcb6f021d5792b",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-debian12-amd64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "sha256": "45053e9b9351e0b1832f74907ae594b71aa6728e773cb749d0e0c243f7f34f09",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-debian12-arm64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "sha256": "837f6dcd94b081064ad1a910301e4ba58747c3d6789c70beae7e94f6fbc99c81",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-debian13-amd64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "sha256": "03d64f3f4097403f703846ac2f4c6408320858a95d46c0fcdfd06b469c83ec0b",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-debian13-arm64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "sha256": "dc1709eb3b1b827025091d6d4afba2598754137748d83067ff16cbebc74534a2",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-ubuntu24.04-amd64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "sha256": "26be9cabca580440ef6b74c9d72c97d4b2927a4f218ff12f76c8d6ca2109502b",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-ubuntu24.04-arm64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "sha256": "34e3283b7a3614249b4be1d7c6b7737bd1aad2d9961889ea39d86074973cf338",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-ubuntu26.04-amd64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "sha256": "372bb4503a281f9ae655f0f06c8a47cc7d53d864fd96a2711f6a499a9c7cf587",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-6/nwaf-nginx-1.30.5-6-ubuntu26.04-arm64.tar.gz",
+      "version": "1.30.5-6"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "sha256": "6d2ce4a20e68484bab7ecca60718b09009adeced1acbec6c02733fd2da8ac2c7",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-debian12-amd64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian12",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.0.9-2+b6"
+        },
+        {
+          "name": "libc6",
+          "version": "2.36-9+deb12u14"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2+b2"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.33-2"
+        },
+        {
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.4-1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.2.1+dfsg1-1.1"
+        },
+        {
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u7"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libhogweed6",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libicu72",
+          "version": "72.1-3+deb12u1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.3-1+b1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-2"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u5"
+        },
+        {
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.4.1-1+deb12u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.7.1-1"
+        },
+        {
+          "name": "libnettle8",
+          "version": "3.8.1-2"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u3"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.24.1-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-1+deb12u2"
+        },
+        {
+          "name": "libpsl5",
+          "version": "0.21.2-1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b2"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10"
+        },
+        {
+          "name": "libssh2-1",
+          "version": "1.10.0-3+deb12u1"
+        },
+        {
+          "name": "libssl3",
+          "version": "3.0.22-1~deb12u1"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "12.2.0-14+deb12u1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-2+deb12u1"
+        },
+        {
+          "name": "libunistring2",
+          "version": "1.0-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3~deb12u6"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-3+deb12u2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.2.13.dfsg-1"
+        }
+      ],
+      "sha256": "e51c26fb0f7285be5728acae24a3279cdc5bb39d364cd0cface8e67770e212e7",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-debian12-arm64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "sha256": "ad859c830e807664680b77c1b4d546e8a782c577976e101f375ae4576cb84fa2",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-debian13-amd64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "debian13",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2+b7"
+        },
+        {
+          "name": "libc6",
+          "version": "2.41-12+deb13u4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3+b12"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.38-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.14.1-2+deb13u5"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.8-2"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-3"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.9-3+deb13u4"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-2"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.21.3-5+deb13u1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.8.1-1+deb13u2"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.1-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.64.0-1.1+deb13u1"
+        },
+        {
+          "name": "libnghttp3-9",
+          "version": "1.8.0-1"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.5-3"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1~deb13u3"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1+b1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2+b5"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1+deb13u2"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.7-1~deb13u3"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-19"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.20.0-2+deb13u1"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.12.7+dfsg+really2.9.14-2.1+deb13u3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5+b2"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1+b1"
+        }
+      ],
+      "sha256": "91596667411fcf25c774c4c7e827753cf1453f316f8a42fb990b1a6853fc071d",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-debian13-arm64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "sha256": "9edd13f1d7d42cf75815f029eb5f3b56e8e8db942d8665fa7cb2e9b4c83951c6",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-ubuntu24.04-amd64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu24.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.1.0-2build2"
+        },
+        {
+          "name": "libc6",
+          "version": "2.39-0ubuntu8.9"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.0-2.4~exp1ubuntu4.1"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.4.36-4build1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.5.0-2ubuntu10.15"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.4.6-1build1"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-2ubuntu6.1"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.3-1.1ubuntu3.6"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libicu74",
+          "version": "74.2-1ubuntu3.1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.7-2build1.1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-3build1"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.20.1-6ubuntu2.10"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-0ubuntu0.24.04.1"
+        },
+        {
+          "name": "liblzma5",
+          "version": "5.6.1+really5.4.5-1ubuntu0.3"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.9.1-1build1"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.9.1-2.2build1.1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.59.0-1ubuntu0.4"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.25.3-4ubuntu2.2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.42-4ubuntu2.1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build1"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2build7"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-5ubuntu3.1"
+        },
+        {
+          "name": "libssh-4",
+          "version": "0.10.6-2ubuntu0.5"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.0.13-0ubuntu3.16"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "14.2.0-4ubuntu2~24.04.1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.19.0-3ubuntu0.24.04.2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.1-2build1.1"
+        },
+        {
+          "name": "libxml2",
+          "version": "2.9.14+dfsg-1.3ubuntu3.10"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5build1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.5+dfsg2-2build1.1"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg-3.1ubuntu2.2"
+        }
+      ],
+      "sha256": "42a005989a2504ff10f2e92ba67266fd512da051829e6f0532e206ed74e5fe29",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-ubuntu24.04-arm64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "amd64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "sha256": "f8672933ae33f888751fa9bfc992aba09458c597a4e8feb95f8b03a9e0583e86",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-ubuntu26.04-amd64.tar.gz",
+      "version": "1.30.5-5"
+    },
+    {
+      "arch": "arm64",
+      "components": {
+        "crs": "4.30.0",
+        "geoip2": "3.4",
+        "lua_cjson": "2.1.0.19",
+        "lua_nginx_module": "0.10.29R2",
+        "lua_resty_core": "0.1.32R1",
+        "lua_resty_lrucache": "0.15",
+        "luajit": "2.1-20260914",
+        "modsecurity": "3.0.17",
+        "modsecurity_nginx": "1.0.4",
+        "ndk": "0.3.4",
+        "nginx": "1.30.5"
+      },
+      "distro": "ubuntu26.04",
+      "panel_max": "0.1.0",
+      "panel_min": "0.1.0",
+      "runtime_dependencies": [
+        {
+          "name": "libbrotli1",
+          "version": "1.2.0-3build1"
+        },
+        {
+          "name": "libc6",
+          "version": "2.43-2ubuntu2.4"
+        },
+        {
+          "name": "libcom-err2",
+          "version": "1.47.2-3ubuntu4"
+        },
+        {
+          "name": "libcrypt1",
+          "version": "1:4.5.1-1"
+        },
+        {
+          "name": "libcurl4t64",
+          "version": "8.18.0-1ubuntu2.7"
+        },
+        {
+          "name": "libffi8",
+          "version": "3.5.2-4"
+        },
+        {
+          "name": "libgcc-s1",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libgmp10",
+          "version": "2:6.3.0+dfsg-5ubuntu2"
+        },
+        {
+          "name": "libgnutls30t64",
+          "version": "3.8.12-2ubuntu1.1"
+        },
+        {
+          "name": "libgssapi-krb5-2",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libhogweed6t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libidn2-0",
+          "version": "2.3.8-4build1"
+        },
+        {
+          "name": "libk5crypto3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkeyutils1",
+          "version": "1.6.3-6ubuntu3"
+        },
+        {
+          "name": "libkrb5-3",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libkrb5support0",
+          "version": "1.22.1-2ubuntu4.1"
+        },
+        {
+          "name": "libldap2",
+          "version": "2.6.10+dfsg-1ubuntu5"
+        },
+        {
+          "name": "libmaxminddb0",
+          "version": "1.12.2-1build2"
+        },
+        {
+          "name": "libnettle8t64",
+          "version": "3.10.2-1"
+        },
+        {
+          "name": "libnghttp2-14",
+          "version": "1.68.0-2ubuntu0.2"
+        },
+        {
+          "name": "libp11-kit0",
+          "version": "0.26.2-2"
+        },
+        {
+          "name": "libpcre2-8-0",
+          "version": "10.46-1build1"
+        },
+        {
+          "name": "libpsl5t64",
+          "version": "0.21.2-1.1build2"
+        },
+        {
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-3"
+        },
+        {
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg1-9ubuntu3"
+        },
+        {
+          "name": "libssh2-1t64",
+          "version": "1.11.1-1ubuntu0.26.04.4"
+        },
+        {
+          "name": "libssl3t64",
+          "version": "3.5.5-1ubuntu3.7"
+        },
+        {
+          "name": "libstdc++6",
+          "version": "16-20260322-1ubuntu1"
+        },
+        {
+          "name": "libtasn1-6",
+          "version": "4.21.0-2"
+        },
+        {
+          "name": "libunistring5",
+          "version": "1.3-2build1"
+        },
+        {
+          "name": "libxml2-16",
+          "version": "2.15.2+dfsg-0.1ubuntu0.3"
+        },
+        {
+          "name": "libyajl2",
+          "version": "2.1.0-5.1"
+        },
+        {
+          "name": "libzstd1",
+          "version": "1.5.7+dfsg-3"
+        },
+        {
+          "name": "zlib1g",
+          "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.1"
+        }
+      ],
+      "sha256": "b63991228209eb527e55ac6c597566c611d34bed6a90dafdd9f4b885ad779d58",
+      "url": "https://github.com/AlainLam/nwaf-artifacts/releases/download/nginx-1.30.5-5/nwaf-nginx-1.30.5-5-ubuntu26.04-arm64.tar.gz",
+      "version": "1.30.5-5"
+    }
+  ],
+  "images": [],
+  "panels": [],
+  "schema_version": 1
+}
